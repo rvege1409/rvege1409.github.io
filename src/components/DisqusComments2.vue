@@ -14,7 +14,7 @@
 
     <div ref="disqusWrap" class="_disqus_wrap">
       <Disqus
-          shortname="my-wedding-dsxdcsfgsj"
+          shortname=""
           :pageConfig="pageConfig"
       />
 <!--      최종 완료 후 조정 -->
