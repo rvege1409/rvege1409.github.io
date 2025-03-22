@@ -41,7 +41,7 @@ export default {
       pageConfig: {
         title: '방명록',
         language: "ko",
-        url: "https://sungsu9022.github.io/my-wedding/"
+        url: "https://rvege1409@github.io"
       },
     }
   },
