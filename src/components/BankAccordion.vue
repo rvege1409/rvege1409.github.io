@@ -14,7 +14,7 @@
           <tbody>
             <tr>
               <td class="six wide left aligned">
-                <p>신랑 - <strong>박성수</strong></p>
+                <p>신랑 - <strong>최창우</strong></p>
                 <span class="_bank_info">
                   국민은행<br>
                   {{ this.bankAccount.male  }}
@@ -34,7 +34,7 @@
             </tr>
             <tr>
               <td class="left aligned">
-                <p>신랑 혼주 - <strong>신미애</strong></p>
+                <p>신랑 혼주 - <strong>최수현∙김미자</strong></p>
                 <span class="_bank_info">
                   국민은행<br>
                   {{ this.bankAccount.maleMother }}
@@ -65,7 +65,7 @@
           <tbody>
           <tr>
             <td class="six wide left aligned">
-              <p>신부 - <strong>김규빈</strong></p>
+              <p>신부 - <strong>나영선</strong></p>
               <span class="_bank_info">
                 기업은행<br>
                 {{ this.bankAccount.female  }}
@@ -85,7 +85,7 @@
           </tr>
           <tr>
             <td class="left aligned">
-              <p>신부 혼주 - <strong>송인숙</strong></p>
+              <p>신부 혼주 - <strong>나채훈∙어머님</strong></p>
                 <span class="_bank_info">
                   농협<br>
                   {{ this.bankAccount.femaleMother }}
@@ -145,7 +145,7 @@ export default {
       showMaleContent: false,
       showFemaleContent: false,
       bankAccount: {
-        male : "99270132461",
+        male : "03580204278449",
         maleMother: "59220201669901",
         female: "53902218301017",
         femaleMother: "21105152369181",

@@ -51,15 +51,19 @@
 
     <div class="map_desc_area _tiny_text _gray">
       <p class="_large_text _blue"><b>주차장 입구</b></p>
-      <br>서울특별시 구로구 경인로 624<br>
+      서울특별시 구로구 경인로 624<br>
       <p class="_large_text _green"><b>자가용</b></p>
       <Divider3 :padding-bottom="0" padding-right="44"/>
       <strong class="_small_text _black">강남역</strong><br>
-      강남대로 -> 사평대로 -> 올림픽대로(김포공항)방면 -> 노량 대교 -> 여의도(서울교)교차로 -> 경인로<br>
+      강남대로 -> 사평대로 -> 올림픽대로(김포공항)방면<br>
+      -> 노량 대교 -> 여의도(서울교)교차로 -> 경인로<br>
       <strong class="_small_text _black">서울역</strong><br>
-      한강대로 -> 청파로 -> 만리재로 -> 마포대교(마포대로) -> 여의대로 -> 경인로<br>
+      한강대로 -> 청파로 -> 만리재로 -> 마포대교(마포대로)<br>
+      -> 여의대로 -> 경인로<br>
       <strong class="_small_text _black">인천국제공항</strong><br>
-      인천국제공항고속도로 -> 서울외곽순환고속도로 -> 경인고속도로 -> 서부간선도로(안양방면) -> 신도림고가차로 -> 경인로<br>
+      인천국제공항고속도로 -> 서울외곽순환고속도로<br>
+      -> 경인고속도로 -> 서부간선도로(안양방면) -> 신도림고가차로<br>
+      -> 경인로<br>
       <strong class="_small_text _black">김포공항</strong><br>
       개화동로 -> 남부순환로 -> 오류IC -> 경인로<br>
     </div>
