@@ -12,6 +12,8 @@ import Viewer from 'v-viewer'
 
 new AOS.init()
 
+
+
 const vueApp = createApp(App)
 
 vueApp.mount('#app');
