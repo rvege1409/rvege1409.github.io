@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="_main_date_warp _green">
-      <p><b>06</b></p>
+      <p><b>11</b></p>
       <div style="width: 33.28px;">
       <Divider3
           :padding-bottom="0"
@@ -11,7 +11,7 @@
           :hr-margin="0"
       />
       </div>
-      <p><b>08</b></p>
+      <p><b>23</b></p>
     </div>
 
     <div class="_main_left_warp _green" style="padding-top:128px;">
