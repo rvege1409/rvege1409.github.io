@@ -41,7 +41,7 @@ export default {
       pageConfig: {
         title: '방명록',
         language: "ko",
-        url: "https://rvege1409@github.io"
+        url: "https://rvege1409.github.io"
       },
     }
   },
