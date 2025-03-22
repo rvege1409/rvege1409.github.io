@@ -8,9 +8,9 @@
     </div>
 
     <div class="address_area _large_text _gray">
-      서울시 강남구 영동대로 325<br>
-      S TOWER B1층 노블발렌티 대치점<br>
-      <p>T. 02-539-0400</p>
+      서울시 구로구 경인로 625<br>
+      신도림 라마다 호텔 5층 세인트 그레이스홀<br>
+      <p>T. 02-2162-2000</p>
     </div>
 
     <a style="cursor: pointer" @click="copyAddress">
@@ -50,38 +50,48 @@
     </div>
 
     <div class="map_desc_area _tiny_text _gray">
+      <p class="_large_text _blue"><b>주차장 입구</b></p>
+      <br>서울특별시 구로구 경인로 624<br>
       <p class="_large_text _green"><b>자가용</b></p>
       <Divider3 :padding-bottom="0" padding-right="44"/>
-      <strong class="_small_text _black">경부고속도로</strong><br>
-      양재IC 양재 방면으로 오른쪽 방향<br>
-      > 개포3, 4단지 삼거리(대치역 방면 좌회전)<br>
-      > 은마 아파트 > 대치우성 아파트 좌회전<br>
-      > 노블발렌티 대치점<br>
-      <br>
-      <strong class="_small_text _black">서울 서부, 강북지역</strong><br>
-      영동대교 남단 '경기고교사거리' 방면 > 봉은사역<br>
-      > 삼성역 직진 > 노블발렌티 대치점<br>
-      <br>
-      <strong class="_small_text _black">서울 동남부 지역</strong><br>
-      2호선 삼성역(무역센터)교차로 > 학여울역(SETEC)방향<br>
-      우회전 > 노블발렌티 대치점
+      <strong class="_small_text _black">강남역</strong><br>
+      강남대로 -> 사평대로 -> 올림픽대로(김포공항)방면 -> 노량 대교 -> 여의도(서울교)교차로 -> 경인로<br>
+      <strong class="_small_text _black">서울역</strong><br>
+      한강대로 -> 청파로 -> 만리재로 -> 마포대교(마포대로) -> 여의대로 -> 경인로<br>
+      <strong class="_small_text _black">인천국제공항</strong><br>
+      인천국제공항고속도로 -> 서울외곽순환고속도로 -> 경인고속도로 -> 서부간선도로(안양방면) -> 신도림고가차로 -> 경인로<br>
+      <strong class="_small_text _black">김포공항</strong><br>
+      개화동로 -> 남부순환로 -> 오류IC -> 경인로<br>
     </div>
 
     <div class="map_desc_area _tiny_text _gray">
       <p class="_large_text _green"><b>지하철</b></p>
       <Divider3 :padding-bottom="0" padding-right="44"/>
-      <strong class="_small_text _black">2호선 삼성역 3번 출구 30m 전방에서 셔틀버스 운행</strong><br>
-      셔틀버스 수시운행, 도보 이용시 7분 소요
+      <strong class="_small_text _black">셔틀버스 타는 곳 : 신도림역 1번 출구 앞</strong><br>
+      지하철 1호선, 2호선 신도림역 1번 출구 (신도림역 광장 도보 5분)<br>
     </div>
 
     <div class="map_desc_area _tiny_text _gray">
       <p class="_large_text _green"><b>버스</b></p>
       <Divider3 :padding-bottom="0" padding-right="44"/>
-      <strong class="_small_text _black">휘문고, 대치 2동 주민센터 하차</strong><br>
-      간선: 342, 401<br>
-      지선: 4318, 4319<br>
-      일반: 11-3, 917<br>
-      직행: 500-2, 9407, 9507, 9607
+      <strong class="_small_text _black">신도림역(구로역)</strong><br>
+      간선버스(파랑) : 160. 503. 600. 662. 660. N16(심야)<br>
+      지선버스(초록) : 6515. 6516. 6637. 6640A. 6640B(신도림역 방면). 6713<br>
+      경기일반 : 10.11-1.11-2.530. 83. 88<br>
+      직행버스(빨강) : 5200. 301. 320
+    </div>
+
+    <div class="map_desc_area _tiny_text _gray">
+      <p class="_large_text _green"><b>공항 리무진 이용 시</b></p>
+      <Divider3 :padding-bottom="0" padding-right="44"/>
+      <strong class="_small_text _black">인천국제공항</strong><br>
+      6B 또는 13A 에서 6018번 버스 탑승 후, 신도림역에서 하차 (약 1시간 10분 소요)<br>
+      성인(만12세~) : 15,000원 /소인(만 6세~만 11세) : 11,000원<br>
+
+      <strong class="_small_text _black">김포국제공항</strong><br>
+      국내선 4번 게이트 또는 6번 게이트에서 6003번 버스 탑승 후, 구로역(애경백화점)에서 하차 (약 35분 소요)<br>
+      신도림역 방향으로 도보 10분<br>
+      성인 및 소인 : 4,000원
     </div>
   </div>
 </template>

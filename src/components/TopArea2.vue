@@ -18,7 +18,7 @@
       <p class="_english_font" style="font-size: 20px;margin-bottom: 12px;">
         The marriage of
       </p>
-      <p>박성수 <span class="_english_font _and">&</span> 김규빈</p>
+      <p>최창우 <span class="_english_font _and">&</span> 나영선</p>
     </div>
 
     <div class="_main_image_warp">
@@ -27,9 +27,9 @@
 
     <div class="_main_left_warp _big_text _green" style="padding-top:23px;padding-bottom: 85px;">
       <div class="_main_txt">
-        <strong>2024년 6월 8일 토요일 오후 5시</strong>
+        <strong>2025년 11월 24일 일요일 오후 4시</strong>
       </div>
-      <div class="_large_text" style="margin-top: 5px;">노블발렌티 대치점 단독홀</div>
+      <div class="_large_text" style="margin-top: 5px;">신도림 라마다 호텔 5층 세인트 그레이스 홀</div>
     </div>
   </div>
 </template>

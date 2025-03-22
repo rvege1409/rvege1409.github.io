@@ -15,8 +15,8 @@
     <Divider3 :padding-bottom="0" padding-right="24" padding-left="24"/>
 
     <div class="names _small_text _gray">
-      <p>(故)박복식∙신미애<span class="male">의 차남</span><strong>성수</strong></p>
-      <p>김동균∙송인숙<span class="male">의 장녀</span><strong>규빈</strong></p>
+      <p>최수현∙김미자<span class="male">의 차남</span><strong>창우</strong></p>
+      <p>나채훈∙어머님 성함<span class="male">의 장녀</span><strong>영선</strong></p>
     </div>
 
     <img class="invi_main_image" src="../assets/images/new/invitation/invi_img.png" />
