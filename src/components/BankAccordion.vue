@@ -36,7 +36,7 @@
               <td class="left aligned">
                 <p>신랑 혼주 - <strong>최수현</strong></p>
                 <span class="_bank_info">
-                  국민은행<br>
+                  기업은행<br>
                   {{ this.bankAccount.maleFather }}
                 </span>
                 <div class="_bank_btn_area">
@@ -105,28 +105,11 @@
               <p>신부 혼주 - <strong>나채훈</strong></p>
                 <span class="_bank_info">
                   농협<br>
-                  {{ this.bankAccount.femaleMother }}
+                  {{ this.bankAccount.femaleFather }}
                 </span>
               <div class="_bank_btn_area">
                 <div class="ui buttons">
                   <button class="ui mini icon button _copy_btn" @click="copyBankAccount($event, this.bankAccount.femaleFather)">
-                    <i class="copy icon"></i>
-                    복사
-                  </button>
-                </div>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td class="left aligned">
-              <p>신부 혼주 - <strong>박주형</strong></p>
-                <span class="_bank_info">
-                  농협<br>
-                  {{ this.bankAccount.femaleMother }}
-                </span>
-              <div class="_bank_btn_area">
-                <div class="ui buttons">
-                  <button class="ui mini icon button _copy_btn" @click="copyBankAccount($event, this.bankAccount.femaleMother)">
                     <i class="copy icon"></i>
                     복사
                   </button>
@@ -182,7 +165,7 @@ export default {
         male : "03580204278449",
         maleFather : "00904567302011",
         maleMother: "20200655703012 ",
-        female: "53902218301017",
+        female: "10310260101012",
         femaleMother: "21105152369181",
         femaleFather: "21105152369181",
       },
