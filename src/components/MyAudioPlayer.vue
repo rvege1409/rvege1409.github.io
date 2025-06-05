@@ -1,13 +1,6 @@
 <template>
   <div :class="wrapStyle">
-    <button class="circular ui icon button _bgm_color" @click="playAndPause">
-      <i v-show="!isPlaying" class="icon volume mute"></i>
-      <i v-show="isPlaying" class="icon volume up"></i>
-    </button>
-    <audio ref="audio">
-      <source src="~@/assets/audio/bgm.mp3" type="audio/mpeg">
-      BMG 지원불가
-    </audio>
+
   </div>
 </template>
 

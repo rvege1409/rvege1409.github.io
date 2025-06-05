@@ -19,9 +19,7 @@ export default {
 		"my-wedding/gallery/16.jpg",
 		"my-wedding/gallery/17.jpg",
 		"my-wedding/gallery/18.jpg",
-		"my-wedding/gallery/19.jpg",
-		"my-wedding/gallery/20.jpg",
-		"my-wedding/gallery/21.jpg"
+		"my-wedding/gallery/19.jpg"
 	]
 
 }
