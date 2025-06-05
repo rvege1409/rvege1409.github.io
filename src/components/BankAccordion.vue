@@ -41,7 +41,7 @@
                 </span>
                 <div class="_bank_btn_area">
                   <div class="ui buttons">
-                    <button class="ui mini icon button _copy_btn" @click="copyBankAccount($event, this.bankAccount.maleMother)">
+                    <button class="ui mini icon button _copy_btn" @click="copyBankAccount($event, this.bankAccount.maleFather)">
                       <i class="copy icon"></i>
                       복사
                     </button>
@@ -102,14 +102,14 @@
           </tr>
           <tr>
             <td class="left aligned">
-              <p>신부 혼주 - <strong>나채훈∙어머님</strong></p>
+              <p>신부 혼주 - <strong>나채훈</strong></p>
                 <span class="_bank_info">
                   농협<br>
                   {{ this.bankAccount.femaleMother }}
                 </span>
               <div class="_bank_btn_area">
                 <div class="ui buttons">
-                  <button class="ui mini icon button _copy_btn" @click="copyBankAccount($event, this.bankAccount.femaleMother)">
+                  <button class="ui mini icon button _copy_btn" @click="copyBankAccount($event, this.bankAccount.femaleFather)">
                     <i class="copy icon"></i>
                     복사
                   </button>
