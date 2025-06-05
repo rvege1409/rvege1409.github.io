@@ -22,7 +22,7 @@
       <p>나채훈∙박주형<span class="male">의 장녀</span><strong>영선</strong></p>
     </div>
 
-    <img class="invi_main_image" src="../assets/images/new/invitation/invi_img.png" />
+    <img class="invi_main_image" src="../assets/images/new/invitation/invi_img.webp" />
 
   </div>
 </template>

@@ -22,7 +22,7 @@
     </div>
 
     <div class="_main_image_warp">
-      <img class="_main_image" src="../assets/images/new/top/main_image.png" />
+      <img class="_main_image" src="../assets/images/new/top/main_image.webp" />
     </div>
 
     <div class="_main_left_warp _big_text _green" style="padding-top:23px;padding-bottom: 85px;">
