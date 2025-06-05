@@ -1,15 +1,18 @@
 <template>
   <div class="invitation_area">
     <p class="header _big_text _green">
-      <strong>"우리 손 잡을까요?"</strong><br />
     </p>
     <div class="desc _large_text _gray">
-      각자의 삶을 열심히 살아온 저희가,<br />
-      이제는 손을 잡고 함께 나란히 걸어가려 합니다.<br />
-      사랑한다는 말이 어울리는 사람과 함께<br />
-      오래도록 있는 힘을 다해 행복해지겠습니다.<br />
-      조용하지만 기쁨이 가득한 결혼 소식을<br />
-      이렇게 알려드립니다.
+      겨울의 시작,<br />
+      따스한 눈길로 서로를 바라보며<br />
+      서로의 마음을 조심스레 열었던 두 사람.<br />
+      이제는 서로의 온기가 되어<br />
+      함께 계절을 걸어왔습니다. <br />
+      이제 하나 되어 <br />
+      새로운 계절의 문을 함께 열고자 합니다. <br />
+      언제나 당신 곁에서 <br />
+      늘 그 자리에 피어 있는 <br />
+      따스한 꽃 같은 사람이 되고 싶습니다. <br />
     </div>
 
     <Divider3 :padding-bottom="0" padding-right="24" padding-left="24"/>

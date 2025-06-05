@@ -43,7 +43,7 @@ export default {
   name: "map-area",
   data() {
     return {
-      locationName: "노블발렌티 대치점",
+      locationName: "라마다 서울 신도림 호텔",
       tmapUrl: "",
       kakaoTaxiUrl: "",
       navermapUrl: "",

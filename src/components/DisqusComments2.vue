@@ -1,29 +1,4 @@
-<template>
-  <div class="comments">
-    <div class="title_area _english_font _big_text _green">
-      Guest message
-    </div>
 
-    <div class="_big_text _green">
-      <b>방명록</b>
-    </div>
-
-    <div class="desc_area _large_text _gray">
-      축하 메세지를 남겨주세요.
-    </div>
-
-    <div ref="disqusWrap" class="_disqus_wrap">
-      <Disqus
-          shortname=""
-          :pageConfig="pageConfig"
-      />
-<!--      최종 완료 후 조정 -->
-<!--      <div class="_hidden"></div>-->
-    </div>
-
-  </div>
-
-</template>
 
 <script>
 

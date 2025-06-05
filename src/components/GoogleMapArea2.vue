@@ -111,14 +111,14 @@ export default {
   },
   data() {
     return {
-      locationName: "노블발렌티 대치점",
-      address : "서울시 강남구 영동대로 325",
+      locationName: "라마다 서울 신도림 호텔",
+      address : "432-30, Sindorim-Dong, gu, 구로구 서울특별시",
       showCopyCompleteModal: false,
       tmapUrl: "",
       kakaoTaxiUrl: "",
       navermapUrl: "",
       kakaomapUrl: "",
-      googleMapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.193781032656!2d127.0654114!3d37.503347500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca5935c76961b%3A0x689edb95b05a8fbb!2z64W467iU67Cc66CM7YuwIOuMgOy5mOygkA!5e0!3m2!1sko!2skr!4v1707751789248!5m2!1sko!2skr",
+      googleMapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.0628649396485!2d126.88274607531311!3d37.506435427572995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9e68c1a74703%3A0x45ccfce8a9b9274a!2z652866eI64ukIOyEnOyauCDsi6Drj4Trprwg7Zi47YWU!5e0!3m2!1sko!2skr!4v1749045586115!5m2!1sko!2skr",
     }
   },
   mounted() {
