@@ -21,9 +21,7 @@ export default {
 		"my-wedding/gallery/18_h.jpg",
 		"my-wedding/gallery/19_h.jpg",
 		"my-wedding/gallery/20_h.jpg",
-		"my-wedding/gallery/21_h.jpg",
-		"my-wedding/gallery/22_h.jpg",
-		"my-wedding/gallery/23_h.jpg",
+		"my-wedding/gallery/21_h.jpg"
 	]
 
 }
