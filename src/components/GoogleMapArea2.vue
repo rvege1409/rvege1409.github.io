@@ -44,9 +44,6 @@
       <a :href="kakaoTaxiUrl">
         <img class="util_btn_icon" src="../assets/images/new/map/kakaonavi.png"/>
       </a>
-      <a :href="tmapUrl">
-        <img class="util_btn_icon" src="../assets/images/new/map/tmap.png"/>
-      </a>
     </div>
 
     <div class="map_desc_area _tiny_text _gray">
