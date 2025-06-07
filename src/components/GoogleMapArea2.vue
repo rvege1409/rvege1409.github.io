@@ -184,11 +184,11 @@ export default {
 }
 
 ._google_map_iframe {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
   border: 0;
-  width: 80%;
-  min-height: 310px;
+  width: 95%;
+  min-height: 190px;
   min-width: 320px;
 }
 

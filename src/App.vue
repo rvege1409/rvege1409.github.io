@@ -95,7 +95,7 @@ html {
   --border-color: #e8dfdf;
   --border-light-color: #e9e5e5;
   --wave-color: #fbfbfb;
-  --primary-bg-color: #FCF7EE;
+  --primary-bg-color: #ffffff;
   --secondary-bg-color: #ffffff;
   --third-bg-color: #f2eeee;
   --fourth-bg-color: #fff;

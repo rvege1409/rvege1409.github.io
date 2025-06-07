@@ -90,11 +90,12 @@ export default {
   text-align: left;
   margin-left: 24px;
   margin-top: 32px;
+  height : 100%;
 }
 
 ._main_image {
-  max-width: 382px;
-  max-height: 254px;
+  max-width: 380px;
+  max-height: 600px;
   width: 100%;
   height: auto;
 }
