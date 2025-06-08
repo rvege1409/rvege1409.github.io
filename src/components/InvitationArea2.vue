@@ -13,6 +13,8 @@
       언제나 당신 곁에서 <br />
       늘 그 자리에 피어 있는 <br />
       따스한 꽃 같은 사람이 되고 싶습니다. <br />
+      <br>
+      <br>
     </div>
 
     <Divider3 :padding-bottom="0" padding-right="24" padding-left="24"/>
@@ -47,7 +49,7 @@ export default {
   text-align: center;
   line-height: 0;
   .header {
-    padding-top: 56px;
+    padding-top: 30px;
     line-height: 28px;
   }
   .desc {

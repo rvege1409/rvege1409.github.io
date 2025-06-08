@@ -1,20 +1,13 @@
 <template>
   <div>
     <div class="_main_date_warp _gray">
-      <p>11</p>
       <div style="width: 33.28px;">
       <Divider3
-          :padding-bottom="0"
-          :padding-right="0"
-          color="#37794f"
-          :opacity="0.3"
-          :hr-margin="0"
       />
       </div>
-      <p>23</p>
     </div>
 
-    <div class="_main_left_warp _gray" style="padding-top:128px;">
+    <div class="_main_left_warp _gray" style="padding-top:60px;">
       <p class="_english_font" style="font-size: 20px;margin-bottom: 12px;">
         The marriage of
       </p>
@@ -25,7 +18,7 @@
       <img class="_main_image" src="../assets/images/new/top/main_image.webp" />
     </div>
 
-    <div class="_main_left_warp _big_text _gray" style="padding-top:23px;padding-bottom: 85px;">
+    <div class="_main_left_warp _big_text _gray" style="padding-top:23px;padding-bottom: 30px;">
       <div class="_main_txt">
         <p>2025년 11월 23일 일요일 오후 4시</p>
       </div>
@@ -49,9 +42,9 @@ export default {
 
 <style lang="scss" scoped>
 ._main_date_warp {
-  //font-family: 'MaruBuri', sans-serif !important;
+  font-family: 'MaruBuri', sans-serif !important;
   text-align: left;
-  padding-top:80px;
+  //padding-top:80px;
   margin-left: 24px;
   font-size: 32px;
   ._and {
@@ -88,7 +81,7 @@ export default {
 
 ._main_image_warp {
   text-align: left;
-  margin-left: 24px;
+  margin-left: 14px;
   margin-top: 32px;
   height : 100%;
 }
