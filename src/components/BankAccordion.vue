@@ -232,6 +232,8 @@ export default {
 
 ._toast {
   bottom: 30px!important;
+  font-family:'Nanum Myeongjo', serif !important
+
 }
 
 ._toast_color {
@@ -242,6 +244,7 @@ export default {
 
 ._title_area {
   line-height: 28px;
+  font-family:'Nanum Myeongjo', serif !important
 }
 
 ._bank_btn_area {

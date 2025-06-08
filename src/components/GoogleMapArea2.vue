@@ -138,7 +138,7 @@ export default {
 .aTag{
   color: #797979 !important;
   font-size: 13px;
-  margin-right:30px;
+  //margin-right:30px;
 }
 
 .aTag_copy{
@@ -189,6 +189,10 @@ export default {
 
 .util_btn_icon_area {
   margin-top: 16px;
+  display: flex;
+  justify-content: center; /* 가로 중앙 정렬 */
+  align-items: center;     /* 세로 중앙 정렬 (필요한 경우) */
+  gap: 20px;   
 }
 
 .util_btn_icon {

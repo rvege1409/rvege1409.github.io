@@ -81,9 +81,9 @@ export default {
 
 ._main_image_warp {
   text-align: left;
-  margin-left: 14px;
   margin-top: 32px;
-  height : 100%;
+  text-align: center;
+  height : 90%;
 }
 
 ._main_image {
