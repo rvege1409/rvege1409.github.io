@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="_main_date_warp _green">
-      <p><b>11</b></p>
+    <div class="_main_date_warp _gray">
+      <p>11</p>
       <div style="width: 33.28px;">
       <Divider3
           :padding-bottom="0"
@@ -11,23 +11,23 @@
           :hr-margin="0"
       />
       </div>
-      <p><b>23</b></p>
+      <p>23</p>
     </div>
 
-    <div class="_main_left_warp _green" style="padding-top:128px;">
+    <div class="_main_left_warp _gray" style="padding-top:128px;">
       <p class="_english_font" style="font-size: 20px;margin-bottom: 12px;">
         The marriage of
       </p>
-      <p>최창우 <span class="_english_font _and">&</span> 나영선</p>
+      <p>최창우 <span class="_and">&</span> 나영선</p>
     </div>
 
     <div class="_main_image_warp">
       <img class="_main_image" src="../assets/images/new/top/main_image.webp" />
     </div>
 
-    <div class="_main_left_warp _big_text _green" style="padding-top:23px;padding-bottom: 85px;">
+    <div class="_main_left_warp _big_text _gray" style="padding-top:23px;padding-bottom: 85px;">
       <div class="_main_txt">
-        <strong>2025년 11월 23일 일요일 오후 4시</strong>
+        <p>2025년 11월 23일 일요일 오후 4시</p>
       </div>
       <div class="_large_text" style="margin-top: 5px;">신도림 라마다 호텔 5층 세인트 그레이스 홀</div>
     </div>
@@ -49,7 +49,7 @@ export default {
 
 <style lang="scss" scoped>
 ._main_date_warp {
-  font-family: "SourceSerifPro-Semibold";
+  //font-family: 'MaruBuri', sans-serif !important;
   text-align: left;
   padding-top:80px;
   margin-left: 24px;

@@ -67,6 +67,7 @@ export default {
   border-radius: 4px;
 }
 
+
 @media (max-width:412px){
   ._gallery_image {
     width:120px!important;

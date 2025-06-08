@@ -18,8 +18,8 @@
     <Divider3 :padding-bottom="0" padding-right="24" padding-left="24"/>
 
     <div class="names _small_text _gray">
-      <p>최수현∙김미자<span class="male">의 차남</span><strong>창우</strong></p>
-      <p>나채훈∙박주형<span class="male">의 장녀</span><strong>영선</strong></p>
+      <p>최수현∙김미자<span class="male">의 차남</span><strong>최창우</strong></p>
+      <p>나채훈∙박주형<span class="male">의 장녀</span><strong>나영선</strong></p>
     </div>
 
     <img class="invi_main_image" src="../assets/images/new/invitation/invi_img.webp" />

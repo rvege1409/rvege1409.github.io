@@ -1,7 +1,7 @@
 export default {
 	images : [
 		"my-wedding/gallery/0.webp",
-		"my-wedding/gallery/1.webp",
+		// "my-wedding/gallery/1.webp",
 		"my-wedding/gallery/2.webp",
 		"my-wedding/gallery/3.webp",
 		"my-wedding/gallery/4.webp",
@@ -14,12 +14,12 @@ export default {
 		"my-wedding/gallery/11.webp",
 		"my-wedding/gallery/12.webp",
 		"my-wedding/gallery/13.webp",
-		"my-wedding/gallery/14.webp",
-		"my-wedding/gallery/15.webp",
-		"my-wedding/gallery/16.webp",
-		"my-wedding/gallery/17.webp",
 		"my-wedding/gallery/18.webp",
-		"my-wedding/gallery/19.webp"
+		"my-wedding/gallery/19.webp",
+		// "my-wedding/gallery/16.webp",
+		"my-wedding/gallery/14.webp",
+		"my-wedding/gallery/17.webp",
+		"my-wedding/gallery/15.webp",
 	]
 
 }

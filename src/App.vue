@@ -121,7 +121,7 @@ html {
 
 
 #v-app-container {
-  font-family: 'MaruBuri', sans-serif !important;
+  font-family: 'Nanum Myeongjo', serif !important;
   font-size: 17px;
   max-width: 430px;
   position:relative;

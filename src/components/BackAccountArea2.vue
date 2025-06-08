@@ -1,9 +1,9 @@
 <template>
   <div class="bank_area">
-      <div class="title_area _english_font _big_text _green">
+      <div class="title_area _english_font _big_text _gray">
         Celebrate
       </div>
-    <div class="_big_text _green">
+    <div class="_big_text _gray">
       <b>마음 전해주실 곳</b>
     </div>
 

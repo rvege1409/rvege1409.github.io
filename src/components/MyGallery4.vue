@@ -1,10 +1,10 @@
 <template>
   <div class="_gallery">
-    <div class="title_area _english_font _big_text _green">
+    <div class="title_area _english_font _big_text _gray">
       gallery
     </div>
-    <div class="_big_text _green">
-      <b>웨딩 갤러리</b>
+    <div class="_big_text _gray">
+      웨딩 갤러리
     </div>
     <div class="description _large_text _silver">
       이미지를 클릭하시면 확대보기가 가능합니다.
@@ -133,7 +133,7 @@ export default {
 <style lang="scss" scoped>
 
 ._gallery {
-  margin-top: 80px;
+  margin-top: 100px;
   text-align: center;
   .title_area {
     line-height: 24px;
@@ -149,8 +149,11 @@ export default {
 ._gallery_image {
   width:133px!important;
   //min-height: 166px;
-  height: auto;
+  height: 180px;
   border-radius: 4px;
+}
+
+.ui.images {
 }
 
 @media (max-width:412px){
