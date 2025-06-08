@@ -58,7 +58,7 @@
       <p class="_large_text _gray"><b>지하철</b></p>
       <Divider3 :padding-bottom="0" padding-right="44"/>
       <strong class="_small_text _gray"><p>셔틀버스 타는 곳 : 신도림역 1번 출구 앞</p></strong><br>
-      <p>지하철 1호선, 2호선 신도림역 1번 출구 (도보 5분)</p><br>
+      지하철 1호선, 2호선 신도림역 1번 출구<br> (도보 5분)
     </div>
 
     <div class="map_desc_area _tiny_text _gray">

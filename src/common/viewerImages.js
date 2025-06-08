@@ -17,7 +17,7 @@ export default {
 		"my-wedding/gallery/14.webp",
 		"my-wedding/gallery/15.webp",
 		"my-wedding/gallery/16.webp",
-		"my-wedding/gallery/17.webp",
+		"my-wedding/gallery/17.webp"
 	]
 
 }
