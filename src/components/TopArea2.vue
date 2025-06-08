@@ -7,7 +7,7 @@
       </div>
     </div>
 
-    <div class="_main_left_warp _gray" style="padding-top:60px;">
+    <div class="_main_left_warp_title _gray" style="padding-top:60px;">
       <p class="_english_font" style="font-size: 20px;margin-bottom: 12px;">
         The marriage of
       </p>
@@ -62,6 +62,16 @@ export default {
   p {
     margin-top: 5px;
     margin-bottom: 5px;
+  }
+}
+._main_left_warp_title {
+  text-align: left;
+  margin-left: 24px;
+  font-size: 23px;
+  ._and {
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 24px;
   }
 }
 
