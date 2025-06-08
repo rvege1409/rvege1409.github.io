@@ -22,7 +22,7 @@
       <div class="_main_txt">
         <p>2025년 11월 23일 일요일 오후 4시</p>
       </div>
-      <div class="_large_text" style="margin-top: 5px;">신도림 라마다 호텔 5층 세인트 그레이스 홀</div>
+      <div class="_main_txt2" style="margin-top: 5px;"><p>신도림 라마다 호텔 5층 세인트 그레이스 홀</p></div>
     </div>
   </div>
 </template>
@@ -41,6 +41,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+._main_txt p {
+  text-align: center;
+}
+._main_txt2{
+  text-align: center;
+  font-size: 18px;
+}
 ._main_date_warp {
   font-family: 'MaruBuri', sans-serif !important;
   text-align: left;
@@ -60,7 +67,7 @@ export default {
 
 ._main_left_warp {
   text-align: left;
-  margin-left: 24px;
+  //margin-left: 24px;
   font-size: 23px;
   ._and {
     margin-left: 12px;

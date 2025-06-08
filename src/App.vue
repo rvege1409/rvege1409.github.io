@@ -54,6 +54,8 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
 /* 기본 폰트 정의 */
 @font-face {
   font-family: 'MaruBuri';
