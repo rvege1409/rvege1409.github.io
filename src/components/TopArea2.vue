@@ -43,6 +43,7 @@ export default {
 <style lang="scss" scoped>
 ._main_txt p {
   text-align: center;
+  font-size: 20px;
 }
 ._main_txt2{
   text-align: center;
