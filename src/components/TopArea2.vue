@@ -43,11 +43,11 @@ export default {
 <style lang="scss" scoped>
 ._main_txt p {
   text-align: center;
-  font-size: 20px;
+  font-size: 17px;
 }
 ._main_txt2{
   text-align: center;
-  font-size: 18px;
+  font-size: 17px;
 }
 ._main_date_warp {
   font-family: 'MaruBuri', sans-serif !important;
