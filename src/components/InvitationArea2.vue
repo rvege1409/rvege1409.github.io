@@ -74,6 +74,9 @@ export default {
     letter-spacing: 3px;
     margin-top: 24px;
     padding-right: 68px;
+    .p{
+        white-space: nowrap;
+    }
     .male {
       font-size: 12.5px;
       margin-left: 26px;

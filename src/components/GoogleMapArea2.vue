@@ -57,8 +57,8 @@
     <div class="map_desc_area _tiny_text _gray">
       <p class="_large_text _gray"><b>지하철</b></p>
       <Divider3 :padding-bottom="0" padding-right="44"/>
-      <strong class="_small_text _gray">셔틀버스 타는 곳 : 신도림역 1번 출구 앞</strong><br>
-      지하철 1호선, 2호선 신도림역 1번 출구 (도보 5분)<br>
+      <strong class="_small_text _gray"><p>셔틀버스 타는 곳 : 신도림역 1번 출구 앞</p></strong><br>
+      <p>지하철 1호선, 2호선 신도림역 1번 출구 (도보 5분)</p><br>
     </div>
 
     <div class="map_desc_area _tiny_text _gray">
@@ -118,10 +118,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
-.map_desc_area p {
-  white-space: nowrap;
-}
 
 .nextLine{
   padding: 5px 0px 0px 104px;
@@ -213,6 +209,9 @@ export default {
   margin-top: 56px;
   margin-left: 25px;
   line-height: 28px;
+  .p {
+  white-space: nowrap;
+  }
 }
 
 </style>
