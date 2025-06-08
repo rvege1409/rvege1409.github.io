@@ -10,7 +10,7 @@
       이미지를 클릭하시면 확대보기가 가능합니다.
     </div>
     <div class="ui images">
-      <img class="ui image _gallery_image"
+      <img class="ui image _gallery_image" data-size="800x533.3333"
            v-for="(image, index) in images"
            :key="index"
            :src="image"

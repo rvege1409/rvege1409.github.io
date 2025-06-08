@@ -104,7 +104,7 @@
             <td class="left aligned">
               <p>신부 혼주 - <strong>나채훈</strong></p>
                 <span class="_bank_info">
-                  농협<br>
+                  기업<br>
                   {{ this.bankAccount.femaleFather }}
                 </span>
               <div class="_bank_btn_area">
@@ -167,7 +167,7 @@ export default {
         maleMother: "20200655703012 ",
         female: "10310260101012",
         femaleMother: "21105152369181",
-        femaleFather: "21105152369181",
+        femaleFather: "17703842702027",
       },
       kakaoPay: {
         male : "https://qr.kakaopay.com/FUI1VLcBZ",

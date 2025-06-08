@@ -44,6 +44,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.names p {
+  white-space: nowrap;
+}
+
 .invitation_area {
   background: var(--secondary-bg-color);
   text-align: center;

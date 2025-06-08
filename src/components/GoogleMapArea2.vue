@@ -57,14 +57,14 @@
     <div class="map_desc_area _tiny_text _gray">
       <p class="_large_text _gray"><b>지하철</b></p>
       <Divider3 :padding-bottom="0" padding-right="44"/>
-      <strong class="_small_text _black">셔틀버스 타는 곳 : 신도림역 1번 출구 앞</strong><br>
+      <strong class="_small_text _gray">셔틀버스 타는 곳 : 신도림역 1번 출구 앞</strong><br>
       지하철 1호선, 2호선 신도림역 1번 출구 (도보 5분)<br>
     </div>
 
     <div class="map_desc_area _tiny_text _gray">
       <p class="_large_text _gray"><b>버스</b></p>
       <Divider3 :padding-bottom="0" padding-right="44"/>
-      <strong class="_small_text _black">신도림역(구로역)</strong><br>
+      <strong class="_small_text _gray">신도림역(구로역)</strong><br>
       간선버스(파랑) : 160 503 600 662 660 N16(심야)<br>
       지선버스(초록) : 6515 6516 6637 6640A <br><p class="nextLine">6640B(신도림역 방면) 6713</p>
       경기일반 : 10 11-1 11-2 530 83 88<br>
@@ -118,6 +118,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+.map_desc_area p {
+  white-space: nowrap;
+}
+
 .nextLine{
   padding: 5px 0px 0px 104px;
 
