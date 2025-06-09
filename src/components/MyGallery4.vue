@@ -10,7 +10,7 @@
       이미지를 클릭하시면 확대보기가 가능합니다.
     </div>
     <div class="ui images">
-      <img class="ui image _gallery_image" data-size="800x533.3333"
+      <img class="ui image _gallery_image"
            v-for="(image, index) in images"
            :key="index"
            :src="image"
@@ -50,6 +50,7 @@ export default {
           initialViewIndex: index,
           fullscreen: true,
           zoomable: false,
+          swipeable: true,
           movable: false,
           navbar: false,
           title: false,
@@ -63,9 +64,10 @@ export default {
           view: (e) => {
             const canvasElement = e.target.viewer.canvas
             canvasElement.style.visibility = 'hidden';
+
             setTimeout(() => {
               this.fadeInImage(canvasElement)
-            }, 100)
+            }, 500)
           },
         }
       })
@@ -153,8 +155,6 @@ export default {
   border-radius: 4px;
 }
 
-.ui.images {
-}
 
 @media (max-width:412px){
   ._gallery_image {
