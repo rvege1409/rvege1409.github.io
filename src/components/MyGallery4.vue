@@ -67,7 +67,7 @@ export default {
 
             setTimeout(() => {
               this.fadeInImage(canvasElement)
-            }, 500)
+            }, 200)
           },
         }
       })
