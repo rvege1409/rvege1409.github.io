@@ -101,7 +101,7 @@ export default {
     makeUrls() {
       const locationName = this.locationName
       this.tmapUrl = "tmap://search?name=" + locationName
-      this.kakaoTaxiUrl = "https://t.kakao.com/launch?type=taxi&amp;dest_lat=37.49878007763176&amp;dest_lng=127.03170076652506&amp;ref=localweb"
+      this.kakaoTaxiUrl = "https://t.kakao.com/launch?type=taxi&dest_lat=37.508819&dest_lng=126.889305&ref=localweb"
       this.navermapUrl = "nmap://search?query=" + locationName
       this.kakaomapUrl = "kakaomap://search?q=" + locationName
     },
