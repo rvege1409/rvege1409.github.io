@@ -44,8 +44,8 @@
       <a :href="navermapUrl" class = "aTag">
         <img class="util_btn_icon" src="../assets/images/new/map/navermap.jpg"/> 네이버 지도
       </a>
-      <a :href="kakaoTaxiUrl" class="aTag">
-        <img class="util_btn_icon" src="../assets/images/new/map/kakaonav.png"/> 카카오 T
+      <a :href="kakaomapUrl" class="aTag">
+        <img class="util_btn_icon" src="../assets/images/new/map/kakaonav.png"/> 카카오 맵
       </a>
     </div>
 
