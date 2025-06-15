@@ -25,9 +25,6 @@
                       <i class="copy icon"></i>
                       복사
                     </button>
-                    <button class="ui mini button _kakaopay_btn"  @click="moveKakaoPay($event, this.kakaoPay.male)">
-                      <img class="ui mini image" src="~@/assets/images/kakaopay-btn.png">
-                    </button>
                   </div>
                 </div>
               </td>
@@ -93,9 +90,6 @@
                     <i class="copy icon"></i>
                     복사
                   </button>
-                  <button class="ui mini button _kakaopay_btn" @click="moveKakaoPay($event, this.kakaoPay.female)">
-                    <img class="ui mini image" src="~@/assets/images/kakaopay-btn.png">
-                  </button>
                 </div>
               </div>
             </td>
@@ -104,7 +98,7 @@
             <td class="left aligned">
               <p>신부 혼주 - <strong>나채훈</strong></p>
                 <span class="_bank_info">
-                  기업<br>
+                  기업은행<br>
                   {{ this.bankAccount.femaleFather }}
                 </span>
               <div class="_bank_btn_area">
@@ -203,6 +197,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
 ._wrap {
   text-align: -webkit-center;
   padding-left: 50px;

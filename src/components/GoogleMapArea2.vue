@@ -65,7 +65,7 @@
       <p class="_large_text _gray"><b>버스</b></p>
       <Divider3 :padding-bottom="0" padding-right="44"/>
       <strong class="_small_text _gray">신도림역(구로역)</strong><br>
-      간선버스(파랑) : 160 503 600 662 660 N16(심야)<br>
+      간선버스(파랑) : 160 503 600 662 660 <br><p class="nextLine">N16(심야)</p>
       지선버스(초록) : 6515 6516 6637 6640A <br><p class="nextLine">6640B(신도림역 방면) 6713</p>
       경기일반 : 10 11-1 11-2 530 83 88<br>
       직행버스(빨강) : 5200 301 320
