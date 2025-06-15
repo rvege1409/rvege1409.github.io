@@ -45,7 +45,7 @@
         <img class="util_btn_icon" src="../assets/images/new/map/navermap.jpg"/> 네이버 지도
       </a>
       <a :href="kakaoTaxiUrl" class="aTag">
-        <img class="util_btn_icon" src="../assets/images/new/map/kakaonav.png"/> 카카오 Taxi
+        <img class="util_btn_icon" src="../assets/images/new/map/kakaonav.png"/> 카카오 T
       </a>
     </div>
 
@@ -101,7 +101,7 @@ export default {
     makeUrls() {
       const locationName = this.locationName
       this.tmapUrl = "tmap://search?name=" + locationName
-      this.kakaoTaxiUrl = "https://t.kakao.com/launch?type=taxi&dest_lat=37.511492&dest_lng=126.889308&ref=localweb"
+      this.kakaoTaxiUrl = "https://t.kakao.com/launch?type=taxi&dest_lat=37.502237&dest_lng=126.874535&ref=localweb"
       this.navermapUrl = "nmap://search?query=" + locationName
       this.kakaomapUrl = "kakaomap://search?q=" + locationName
     },
